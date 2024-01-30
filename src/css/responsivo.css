@@ -1,0 +1,45 @@
+@media (max-width: 1024px){
+    header{
+        justify-content: center;
+        flex-direction: column;
+        padding: 50px 0px;
+        gap: 15px;
+    }
+    header .menu li a{
+        padding: 15px;
+    }
+    main .informacoes{
+        padding: 30px;
+    }
+    main .informacoes img{
+        max-width: 100px;
+    }
+    main .informacoes .titulo{
+        font-size: 40px;
+    }
+    .compre-ja .cartao{
+        width: 70%;
+    }
+}
+@media (max-width: 768px){
+    .compre-ja{
+        padding: 30px;
+    }
+    .compre-ja .cartao{
+        padding: 80px 20px;
+        width: 100%;
+    }
+    .compre-ja .informacoes h3{
+        font-size: 35px;
+    }
+    .compre-ja .informacoes .plataformas{
+        flex-direction: column;
+    }
+    .btn-plataforma{
+        margin-top: 15px;
+        padding: 15px;
+    }
+    .btn-comprar{
+        width: 100%;
+    }
+}
